@@ -181,7 +181,7 @@ Channels 64 and 65 perform poorly in absolute terms, but each contains only **tw
 
 Other channels contain thousands of positive training examples but still degrade strongly between validation and the future test period. This behavior is consistent with changes in telemetry distributions and operating regimes over the spacecraft lifetime.
 
-!![Per-channel PR-AUC](figures/test_pr_auc_by_channel.png)
+![Per-channel PR-AUC](figures/test_pr_auc_by_channel.png)
 
 ![Validation vs future test per channel](figures/validation_vs_test_per_channel.png)
 
