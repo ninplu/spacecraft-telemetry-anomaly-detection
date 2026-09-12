@@ -221,25 +221,29 @@ Potential extensions include:
 ## Repository Structure
 
 ```text
-spacecraft-telemetry-anomaly-detection/
-├── README.md
-├── requirements.txt
-├── LICENSE
-├── src/
-│   ├── dataset.py
-│   ├── preprocessing.py
-│   ├── supervised_CNN.py
-│   └── autoencoder.py
-├── notebooks/
-│   └── spacecraft_anomaly_detection.ipynb
+Project2_AnomalyDetection/
 ├── figures/
+│   ├── detected_anomaly_channel_18.png
 │   ├── test_pr_auc_by_channel.png
 │   ├── validation_vs_test.png
-│   ├── validation_vs_test_per_channel.png
-│   └── detected_anomaly_channel_18.png
-└── models/
-    ├── cnn_gru_multilabel.pth
-    └── hybrid_supervised_cnn_balancedPR_02.pth
+│   └── validation_vs_test_per_channel.png
+│
+├── models/
+│   └── hybrid_supervised_cnn_balancedPR_02.pth
+│
+├── notebooks/
+│   └── spacecraft_anomaly_detection.ipynb
+│
+├── src/
+│   ├── autoencoder.py
+│   ├── dataset.py
+│   ├── preprocessing.py
+│   └── supervised_CNN.py
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
 ```
 Large telemetry arrays and raw ESA dataset files are intentionally not included in the repository.
 
